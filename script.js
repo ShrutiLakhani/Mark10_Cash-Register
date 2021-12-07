@@ -11,6 +11,9 @@ btnChk.addEventListener("click", function()
     messageVal.innerText = "Invalid Bill Amount";
   }
   else 
+  {
+    messageVal.innerText = "";
+  }
  
   if (Number(cashAmt.value) < Number(billAmt.value))
   {
